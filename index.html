@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <title>Transportation Survey</title>
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="js/jquery.js"></script>
+  <script src="js/scripts.js"></script>
+</head>
+<body>
+  <div class="container">
+    <div class="jumbotron">
+      <h2>Transportation Survey</h2>
+    </div>
+    <form id="transportation_survey">
+      <div class="form-group">
+        <p>In the past year, I have used the following modes of transportation to travel to work or school:</p>
+        <input type= "checkbox" name= "work-transportation" value="Bike"> Riding a bike.<br>
+        <input type= "checkbox" name= "work-transportation" value="Car"> Driving a car.<br>
+        <input type= "checkbox" name= "work-transportation" value="Walk"> Walking.<br>
+        <input type= "checkbox" name= "work-transportation" value="Bus"> Taking the bus.<br>
+        <input type= "checkbox" name= "work-transportation" value="Train"> Taking the train.<br>
+      </div>
+      <div class="form-group2">
+        <p>In the past year, I have used the following modes of transportation to travel to work or school:</p>
+        <input type= "checkbox" name= "nonWork-transportation" value="Skateboarding"> Riding a skateboard.<br>
+        <input type= "checkbox" name= "nonWork-transportation" value="Walking"> Walking.<br>
+        <input type= "checkbox" name= "nonWork-transportation" value="Rollerblading"> Rollerblading<br>
+        <input type= "checkbox" name= "nonWork-transportation" value="Running"> Go running.<br>
+        <input type= "checkbox" name= "nonWork-transportation" value="Subway"> Taking the subway.<br>
+      </div>
+      <br>
+      <button class= "btn btn-primary" type="submit">Submit Survey</button>
+    </form>
+
+    <span id="work-responses">
+      <br>
+      <p><b>You use the following methods of transportation to travel to work or school:</b></p>
+    </span>
+    <span id="nonWork-responses">
+      <br>
+      <p><b>You use the following methods of transportation to travel to non-work activities:</b></p>
+    </span>
+    <br>
+  </div>
+</body>
+</html>
